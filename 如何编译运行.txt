@@ -1,0 +1,4 @@
+–°≥µ±‡“Î¥˙¬Î:
+sudo g++ demo.cpp -o test `pkg-config --cflags --libs opencv` -L. -lwiringPi -lGPIO
+
+sudo g++ main.cpp -o main `pkg-config --cflags --libs opencv` -L. -lwiringPi -lGPIO
